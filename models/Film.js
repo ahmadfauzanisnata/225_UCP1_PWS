@@ -19,7 +19,7 @@ module.exports = (sequelize, DataTypes) => {
         },
          Genre: {
             type: DataTypes.STRING
-        }
+        },
     });
     return Film;
 }
